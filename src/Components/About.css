@@ -1,0 +1,65 @@
+.about-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: small;
+    color: gray;
+}
+.about-left .first:hover{
+    cursor: pointer;
+    text-decoration: underline orangered;
+      transform: translateY(-8px);
+
+}
+.about-left .second:hover{
+    cursor: pointer;
+    text-decoration: underline orangered;
+      transform: translateY(-8px); 
+     }
+
+.about-left .third:hover{
+    cursor: pointer;
+    text-decoration: underline orangered;
+      transform: translateY(-8px);
+    }
+
+.about-left .fourth:hover{
+    cursor: pointer;
+    text-decoration: underline orangered;
+      transform: translateY(-8px);
+    }
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+.image{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.about-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+.about-right:hover{
+    text-decoration: underline orangered;
+      transform: translateY(-8px);
+        cursor: pointer;
+
+}
+.footer-text span{
+    color: orangered;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.footer-text span:hover{
+    text-decoration: underline orangered;
+      transform: translateY(-8px);
+}
